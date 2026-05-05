@@ -5,6 +5,7 @@ backend/config.json
 backend/output/
 *.csv
 *.png
+!public/logo.png
 
 # Node Dependencies
 node_modules/
