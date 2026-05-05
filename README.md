@@ -12,6 +12,7 @@
 - **Temporal Velocity Analysis**: High-resolution tracking of inbound intelligence over time.
 - **Enterprise Dashboard**: Modern glassmorphic React UI with Light/Dark mode toggles.
 - **Automated Reporting**: Generates downloadable CSV logs and high-res Matplotlib PNG charts.
+- **Visual Identity**: Professional glassmorphic shield branding and enterprise-grade UI/UX.
 
 ---
 
@@ -20,7 +21,7 @@
 - **Frontend**: React 18, TypeScript, Tailwind CSS, Lucide Icons.
 - **Analytics**: Recharts (Interactive) & Matplotlib (Static PNGs).
 - **Data Processing**: Pandas, Regex, IMAPLib.
-- **Styling**: Glassmorphism, Modern Dark Mode UI.
+- **Branding**: Custom AI-generated Enterprise Shield Logo.
 
 ---
 
@@ -35,6 +36,8 @@ MailSentry_Insight/
 │   │   ├── parser.py      # Regex entity extraction
 │   │   └── ...            # Other core modules
 │   └── output/            # Intelligence CSVs & PNG Charts
+├── public/
+│   └── logo.png           # Official Enterprise Shield Logo
 └── src/                   # React Frontend Source
 ```
 
@@ -69,7 +72,7 @@ Open your browser and navigate to:
 ---
 
 ## 🛡️ Security Note
-The `backend/config.json` file is listed in `.gitignore` to prevent sensitive credentials from being pushed to public repositories. Always use **Google App Passwords** for secure IMAP authentication.
+The `backend/config.json` file is strictly excluded via `.gitignore` to prevent sensitive credentials from being leaked. **Never upload your app passwords to public repositories.**
 
 ---
 
