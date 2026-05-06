@@ -1,0 +1,23 @@
+# Sensitive Credentials
+backend/config.json
+
+# Local Data Output
+backend/output/
+*.csv
+*.png
+!public/logo.png
+
+# Node Dependencies
+node_modules/
+dist/
+build/
+
+# Python Environment
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# System Files
+.DS_Store
+Thumbs.db
